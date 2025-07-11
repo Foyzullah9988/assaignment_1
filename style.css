@@ -18,7 +18,7 @@
 
 body {
     height: auto;
-    max-width: 1440px;
+    max-width: 100%;
     background-color: #F5F8FF;
 }
 
@@ -92,6 +92,10 @@ header nav ul li a {
     font-weight: bold;
     padding: 0;
     margin: 0;
+    color: #252432;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .action-content {
@@ -118,12 +122,14 @@ header nav ul li a {
     height: 328px;
 }
 
+/* productive styles */
 .details {
     display: flex;
     justify-content: space-around;
     text-align: center;
     gap: 158px;
     padding: 0px;
+    width: 100%;
 
 }
 
@@ -186,7 +192,7 @@ header nav ul li a {
     border-radius: 14px;
     padding: 24px;
     border: 1px solid #ffb8052f;
-    background-color: #ffffff;
+    background-color: white;
 
 }
 
@@ -198,19 +204,33 @@ header nav ul li a {
 }
 
 /* action styles */
-.action-two {
+.action-second {
     display: inline;
     text-align: center;
+
+
 }
 
-.action-title {
+.ready {
+    margin-top: 137px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin-left: 151px;
+    margin-right: 151px;
+
+}
+
+.action-title-second {
     font-weight: bold;
     font-size: 50px;
     color: #000000;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    padding-top: 71px;
+    margin: 0;
 }
+
 
 .action-description {
     color: rgba(0, 0, 0, 0.5);
@@ -218,11 +238,14 @@ header nav ul li a {
 
 .action-img {
     border-radius: 48px;
+    margin-top: 20px;
+    margin-bottom: 71px;
+    margin-left: 150px;
 }
 
 .action-button {
     border-radius: 10px;
-    border: none    ;
+    border: none;
     color: #FFFFFF;
     background-color: #4E47FF;
     padding: 12px 36px;
@@ -245,9 +268,13 @@ form {
     flex-direction: column;
     max-width: 632px;
     margin-right: 150px;
-    margin-top: 92px;
+    margin-top: 72px;
     gap: 7px;
 
+}
+
+.forms {
+    margin-top: 92px;
 }
 
 .form-head {
@@ -318,7 +345,7 @@ textarea::placeholder {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    color: 000000;
+    color: #000000;
 }
 
 .form-title {
@@ -350,6 +377,7 @@ footer h2 {
 
 footer {
     text-align: center;
+    background-color: #FFFFFF;
 }
 
 footer nav ul {
@@ -373,8 +401,12 @@ footer nav ul {
 
 .footer-head {
     margin-bottom: 8px;
-    padding: 0;
 }
-button:hover{
+
+button:hover {
     background-color: aqua;
+}
+
+.footer-body {
+    width: 100wh;
 }
