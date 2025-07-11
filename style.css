@@ -42,6 +42,9 @@ nav {
     margin: 0 150px;
     margin-right: 150px;
 }
+.letter{
+    color: rgba(255, 0, 0, 0.419);
+}
 
 header {
     background-image: url('B12A01-landing-launchpad/Assets/Hero-bg.png');
@@ -208,7 +211,6 @@ header nav ul li a {
     display: inline;
     text-align: center;
 
-
 }
 
 .ready {
@@ -241,6 +243,7 @@ header nav ul li a {
     margin-top: 20px;
     margin-bottom: 71px;
     margin-left: 150px;
+    margin-right: 150px;
 }
 
 .action-button {
